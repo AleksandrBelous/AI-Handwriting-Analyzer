@@ -1,0 +1,15 @@
+ssh @localhost
+ssh nemo@192.168.178.14
+ssh nemo@192.168.34.56
+hello? im finishedf nfnfnfnff f f f
+finishedaaaaa
+fffffaaa
+aa
+aa aa
+ffffaaa
+cc cc
+ffffaaaa cc cc
+ffffaaaa cc cc
+ffffaaaa cc cc
+ssh nautilus@localthread -p
+fffaaabbbccc
