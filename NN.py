@@ -28,7 +28,7 @@ for i in range(a, b, c):
                                             monitor='val_accuracy',
                                             save_best_only=True,
                                             mode='max',
-                                            verbose=1)
+                                            verbose=1,)
     # Обучение модели
     model.fit(X_train, y_train,
               epochs=5,
