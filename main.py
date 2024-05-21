@@ -49,7 +49,10 @@ class KeyLogger(NN):
         #     print(f'curr word = {self.current_word}')
         #     print(f'dataset = {self.training_data}')
         if self.current_word:
-            print(self.current_word)
+            if len(self.current_word) == 1:
+                print('Soft Alarm !!!')
+            else:
+                print(self.current_word)
             # if self.is_verbose: print(f'curr word is {self.current_word}')
             self.word_count += 1
             # if self.is_verbose: print(f'count = {self.word_count}')
