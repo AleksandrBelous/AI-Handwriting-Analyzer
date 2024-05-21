@@ -71,7 +71,7 @@ class KeyLogger(NN):
                 # оставшийся в памяти символ (и связанный с ним временной интервал) считаем началом нового слова
             else:
                 self.current_word.append(time_diff)
-                print(self.time_diff)
+                # print(self.time_diff)
             self.current_word.append(self.key)
             self.start_time = current_time
 
